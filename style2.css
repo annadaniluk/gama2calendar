@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(rgb(75, 6, 6), rgb(133, 17, 17), rgb(143, 12, 12), rgb(170, 10, 10), rgb(143, 12, 12), rgb(133, 17, 17), rgb(75, 6, 6));
+    margin: 0px;
+ 
+}
+
+html{
+    height: auto;
+    min-height: 100%;
+}
+
+div{
+    text-align: center;
+    margin: 31px;
+ width: 170px;
+ height: 170px;
+ background: linear-gradient(#b18005, #ddb45d, #ffec99, #ddb45d, #b18005);
+ border-radius: 30px;
+}
+
+   h{
+    font-size: 150px;
+    color:rgb(119, 10, 10);
+   }
+
+  a{
+    text-decoration: none;
+  }
+
+  .pclass{
+    z-index: 100;
+   display: none;
+    position: fixed;
+    top: 47%;
+    left: 48%;
+    width: 700px;
+    height: 250px;
+    background: linear-gradient(rgb(75, 6, 6), rgb(121, 16, 16), rgb(143, 12, 12), rgb(170, 10, 10), rgb(143, 12, 12), rgb(121, 16, 16), rgb(75, 6, 6));
+    border: 2px solid #eec262;
+  transform: translate(-50%, -50%);
+  padding: 140px 10px 20px 10px;
+  .old-standard-tt-regular {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .old-standard-tt-bold {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .old-standard-tt-regular-italic {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+    font-size: 35px;
+    color: #eec262; 
+  }
+
+  button{
+   background: none;
+   border: none;
+   font: inherit;
+  }
+
+.v{
+    display:grid; 
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto auto auto;
+    overflow: hidden;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    background: transparent;
+}
+
+.pclass.active{
+  display: block;
+}
+
+.pclass.dactive{
+  display: none;
+}
+

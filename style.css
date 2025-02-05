@@ -1,0 +1,110 @@
+body{
+    background: linear-gradient(-90deg, rgb(75, 6, 6), rgb(121, 16, 16), rgb(143, 12, 12), rgb(170, 10, 10), rgb(143, 12, 12), rgb(121, 16, 16), rgb(75, 6, 6));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    overflow: hidden;
+}
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+50%{
+    background-position: 100% 50%;
+}
+100%{
+    background-position: 0% 50%;
+}
+}
+
+img{
+    width: 300px;
+    position: absolute;
+}
+
+.leftbottom{
+ left: 0px;
+ top: 580px;
+ width: 450px;
+}
+
+.rightbottom{
+    left: 1470px;
+    top: 580px;
+    width: 450px;
+   }
+
+   .button{
+    left: 683px;
+    top: 680px;
+    width: 550px;
+   }
+
+   .top1{
+    left: 0px;
+    top:0px;
+    width: 340px;
+   }
+
+   .top2{
+    left: 340px;
+    top:0px;
+   }
+
+   .top3{
+    left: 640px;
+    top:0px;
+    width: 340px;
+   }
+
+   .top4{
+    left: 980px;
+    top:0px;
+   }
+
+   .top5{
+    left: 1280px;
+    top:0px;
+    width: 340px;
+   }
+
+   .top6{
+    left: 1620px;
+    top:0px;
+   }
+
+   .a{
+    position: absolute;
+    color: #eec262;
+    top:200px;
+    left: 485px;
+    width: 1300px;
+    font-size: 60px;
+   }
+
+   h1{
+    position: absolute;
+    font-family: "Mystery Quest", system-ui; 
+    font-weight: 400;
+    font-style: normal;
+   }
+
+   .b{
+    position: absolute;
+    color: #eec262;
+    top:400px;
+    left: 690px;
+    font-size: 60px;
+   }
+   
+   h2{
+    position: absolute;
+    font-family: "Mystery Quest", system-ui; 
+    font-weight: 400;
+    font-style: normal;
+    color: #eec262;
+    z-index: 1;
+    left: 815px;
+    top: 680px;
+    font-size: 50px;
+   }
